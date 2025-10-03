@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold text-center">GPA Target Solver</h1>
+      <h1 className="text-3xl font-bold text-center">Studying Time Periods Optimizer</h1>
       <GpaForm onSubmit={handleSubmit} />
       <ResultDisplay result={result} />
     </div>
